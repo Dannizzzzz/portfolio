@@ -1,0 +1,26 @@
+.about {
+  margin-top: 50px;
+  position: relative;
+}
+.about .about-me {
+  background: #191919;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+}
+.about h2 {
+  font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 50px;
+}
+.about p {
+  color: #B8B8B8;
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 40px 0;
+  text-align: left;
+}
+.about img{
+  width: 350px;
+}

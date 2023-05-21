@@ -16,12 +16,21 @@ body {
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
 }
-p, a, li, button, ul {
+p,
+a,
+li,
+button,
+ul {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -38,35 +47,37 @@ button {
   border: 0;
   background-color: transparent;
 }
-input:focus, textarea:focus, select:focus {
+input:focus,
+textarea:focus,
+select:focus {
   outline: none;
 }
-@media (min-width:1700px) {
-	main .container {
-		max-width: 100%;
-		padding: 0 150px;
-	}
+@media (min-width: 1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 151px;
+  }
 }
 p.success {
-	color: green;
+  color: green;
 }
 p.danger {
-	color: red;
+  color: red;
 }
 
 /************ Custom Font ************/
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
-	font-weight: 700;
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Bold.ttf');
+  font-weight: 700;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Medium.ttf');
-	font-weight: 500;
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Medium.ttf');
+  font-weight: 500;
 }
 @font-face {
-	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
-	font-weight: 400;
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Book.ttf');
+  font-weight: 400;
 }

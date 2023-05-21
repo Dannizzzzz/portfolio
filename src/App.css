@@ -55,7 +55,7 @@ select:focus {
 @media (min-width: 1700px) {
   main .container {
     max-width: 100%;
-    padding: 0 151px;
+    padding: 0 150px;
   }
 }
 p.success {

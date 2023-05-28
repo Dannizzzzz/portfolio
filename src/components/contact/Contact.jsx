@@ -24,7 +24,7 @@ const Contact = (props) => {
     e.preventDefault();
     setButtonText('Sending...');
     let response = await fetch(
-      'https://portfolio-server.azurewebsites.net:5001/contact',
+      'https://portfolio-server.azurewebsites.net/contact',
       {
         method: 'POST',
         headers: {

@@ -9,9 +9,12 @@
   padding: 60px 50px;
 }
 .project h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
   margin-bottom: 40px;
+}
+.project .col {
+  margin-bottom: 20px;
 }
 .card {
   height: 100%;
@@ -38,7 +41,7 @@
   display: none;
 }
 .top:hover .cover {
-  display:block;
+  display: block;
 }
 .cover .btn {
   background-color: aliceblue;

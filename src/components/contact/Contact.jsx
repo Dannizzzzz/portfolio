@@ -14,6 +14,7 @@ const Contact = (props) => {
   const [formDetails, setFormDetails] = useState(formContent);
   const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
+  const [pressReset, setPressReset] = useState(false);
   const onFormUpdate = (category, value) => {
     setFormDetails({
       ...formDetails,
@@ -116,11 +117,11 @@ const Contact = (props) => {
                       <button type="submit">
                         <span>{buttonText}</span>
                       </button>
-                      <button type="reset">
+                      <button type="reset" onClick={() => setPressReset(true)}>
                         <span>Reset</span>
                       </button>
                     </Col>
-                    {status.message && (
+                    {!pressReset && status.message && (
                       <Col>
                         <p
                           className={

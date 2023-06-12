@@ -30,7 +30,7 @@ const NavBar = (props) => {
   const scroll = () => {
     // const section = document.querySelector('#contact');
     // section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    window.scrollTo(0, 2650);
+    window.scrollTo(0, 4000);
   };
 
   return (

@@ -1,12 +1,12 @@
-import "./Banner.css";
-import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import './Banner.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 const Banner = (props) => {
   const scroll = () => {
     // const section = document.querySelector('#contact');
     // section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    window.scrollTo(0, 2650);
+    window.scrollTo(0, 4000);
   };
 
   return (
@@ -17,12 +17,15 @@ const Banner = (props) => {
             <h2 className="welcome">
               Welcome to my Portfolio
               <span className="wave">👋🏻</span>
-            </h2><br />
-            <h1 className="name">
-              Hi! I'm Danni Zhang
-            </h1><br />
-            <h4>Web Developer &nbsp; | &nbsp; Full-Stack Developer</h4><br />
-            <button onClick={scroll}>Let's Connect <ArrowRightCircle size={25} /></button>
+            </h2>
+            <br />
+            <h1 className="name">Hi! I'm Danni Zhang</h1>
+            <br />
+            <h4>Web Developer &nbsp; | &nbsp; Full-Stack Developer</h4>
+            <br />
+            <button onClick={scroll}>
+              Let's Connect <ArrowRightCircle size={25} />
+            </button>
           </Col>
         </Row>
       </Container>
